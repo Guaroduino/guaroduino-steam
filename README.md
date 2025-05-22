@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# STEAM Venezuela
 
-## Getting Started
+Plataforma educativa minimalista para impulsar Ciencia, Tecnología, Ingeniería, Artes y Matemáticas en Venezuela.
 
-First, run the development server:
+## Desarrollo Local
 
 ```bash
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Antes de hacer Push
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Siempre ejecuta el siguiente comando antes de hacer push para verificar que todo funciona:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run verify
+```
 
-## Learn More
+Este comando verificará:
+- Que no hay errores de linting
+- Que el formato del código es correcto
+- Que el build funciona correctamente
 
-To learn more about Next.js, take a look at the following resources:
+## Estructura del Proyecto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `src/pages/` - Páginas de la aplicación
+- `src/components/` - Componentes reutilizables
+- `src/styles/` - Estilos globales y configuración de Tailwind
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Despliegue
 
-## Deploy on Vercel
+El sitio se despliega automáticamente a GitHub Pages cuando se hace push a la rama `main`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Notas Importantes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. El sitio usa Next.js con exportación estática (`output: 'export'`)
+2. La configuración de Next.js está en `next.config.js`
+3. El despliegue se maneja a través de GitHub Actions (`.github/workflows/gh-pages.yml`)
+4. La URL de producción es: https://guaroduino.github.io/guaroduino-steam/
+
+### Solución de Problemas Comunes
+
+Si el despliegue falla:
+1. Verifica que `npm run verify` pasa localmente
+2. Asegúrate de que no hay errores de TypeScript
+3. Revisa los logs en la pestaña "Actions" de GitHub
