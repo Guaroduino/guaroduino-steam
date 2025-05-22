@@ -7,7 +7,7 @@ module.exports = {
     'react-hooks',
     'prettier',
     'import',
-    'jsx-a11y'
+    'jsx-a11y',
   ],
   extends: [
     'eslint:recommended',
@@ -19,24 +19,24 @@ module.exports = {
     'plugin:import/warnings',
     'plugin:import/typescript',
     'plugin:jsx-a11y/recommended',
-    'next/core-web-vitals'
+    'next/core-web-vitals',
   ],
   env: {
     browser: true,
     es2021: true,
-    node: true
+    node: true,
   },
   settings: {
     react: {
-      version: 'detect'
-    }
+      version: 'detect',
+    },
   },
   rules: {
     // Reglas de TypeScript
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'error',
-    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-non-null-assertion': 'error',
 
     // Reglas de React
@@ -62,11 +62,11 @@ module.exports = {
           'internal',
           'parent',
           'sibling',
-          'index'
+          'index',
         ],
         'newlines-between': 'always',
-        alphabetize: { order: 'asc' }
-      }
+        alphabetize: { order: 'asc' },
+      },
     ],
 
     // Reglas de estilo
@@ -82,8 +82,8 @@ module.exports = {
         bracketSpacing: true,
         jsxBracketSameLine: false,
         arrowParens: 'avoid',
-        endOfLine: 'auto'
-      }
+        endOfLine: 'auto',
+      },
     ],
 
     // Reglas generales
@@ -91,11 +91,6 @@ module.exports = {
     'no-debugger': 'error',
     'no-alert': 'error',
     'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }],
-    'padding-line-between-statements': [
-      'error',
-      { blankLine: 'always', prev: '*', next: 'return' },
-      { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
-      { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] }
-    ]
-  }
-}; 
+    'padding-line-between-statements': 'off',
+  },
+};
