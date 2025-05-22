@@ -21,6 +21,7 @@ npm run verify
 ```
 
 Este comando verificará:
+
 - Que no hay errores de linting
 - Que el formato del código es correcto
 - Que el build funciona correctamente
@@ -45,6 +46,7 @@ El sitio se despliega automáticamente a GitHub Pages cuando se hace push a la r
 ### Solución de Problemas Comunes
 
 Si el despliegue falla:
+
 1. Verifica que `npm run verify` pasa localmente
 2. Asegúrate de que no hay errores de TypeScript
 3. Revisa los logs en la pestaña "Actions" de GitHub

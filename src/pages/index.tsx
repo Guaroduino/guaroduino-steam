@@ -1,7 +1,8 @@
 // Forzar nuevo build para deploy minimalista
+import Link from 'next/link';
+
 import Button from '../components/Button';
 import Card from '../components/Card';
-import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -31,7 +32,7 @@ export default function Home() {
               </p>
             </Card>
           </Link>
-          
+
           <Link href="/secundaria" className="block">
             <Card>
               <h2 className="font-semibold text-xl mb-3">Secundaria</h2>
@@ -40,7 +41,7 @@ export default function Home() {
               </p>
             </Card>
           </Link>
-          
+
           <Link href="/universidad" className="block">
             <Card>
               <h2 className="font-semibold text-xl mb-3">Universidad</h2>
@@ -59,16 +60,20 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <Link href="/proyectos/robot-seguidor">
             <Card>
-              <h3 className="font-semibold text-xl mb-2">Robot Seguidor de Línea</h3>
+              <h3 className="font-semibold text-xl mb-2">
+                Robot Seguidor de Línea
+              </h3>
               <p className="text-gray-600">
                 Proyecto interdisciplinario de robótica para secundaria.
               </p>
             </Card>
           </Link>
-          
+
           <Link href="/proyectos/simulacion-circuitos">
             <Card>
-              <h3 className="font-semibold text-xl mb-2">Simulación de Circuitos</h3>
+              <h3 className="font-semibold text-xl mb-2">
+                Simulación de Circuitos
+              </h3>
               <p className="text-gray-600">
                 Explora electrónica básica con herramientas como Tinkercad.
               </p>

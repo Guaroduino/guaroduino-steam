@@ -10,18 +10,30 @@ export default function Navbar() {
               <span className="text-xl font-bold text-gray-900">STEAM VE</span>
             </Link>
           </div>
-          
+
           <div className="hidden sm:flex sm:items-center sm:space-x-8">
-            <Link href="/primaria" className="text-gray-600 hover:text-gray-900">
+            <Link
+              href="/primaria"
+              className="text-gray-600 hover:text-gray-900"
+            >
               Primaria
             </Link>
-            <Link href="/secundaria" className="text-gray-600 hover:text-gray-900">
+            <Link
+              href="/secundaria"
+              className="text-gray-600 hover:text-gray-900"
+            >
               Secundaria
             </Link>
-            <Link href="/universidad" className="text-gray-600 hover:text-gray-900">
+            <Link
+              href="/universidad"
+              className="text-gray-600 hover:text-gray-900"
+            >
               Universidad
             </Link>
-            <Link href="/proyectos" className="text-gray-600 hover:text-gray-900">
+            <Link
+              href="/proyectos"
+              className="text-gray-600 hover:text-gray-900"
+            >
               Proyectos
             </Link>
           </div>
@@ -29,4 +41,4 @@ export default function Navbar() {
       </div>
     </nav>
   );
-} 
+}
