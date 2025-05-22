@@ -24,29 +24,29 @@ export default function Home() {
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-gray-50">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <Link href="/primaria" className="block">
+          <Link href="/nivel-1" className="block">
             <Card>
-              <h2 className="font-semibold text-xl mb-3">Primaria</h2>
+              <h2 className="font-semibold text-xl mb-3">Nivel I</h2>
               <p className="text-gray-600">
-                Recursos y proyectos para los primeros años escolares.
+                Recursos y proyectos para los primeros pasos en STEAM.
               </p>
             </Card>
           </Link>
 
-          <Link href="/secundaria" className="block">
+          <Link href="/nivel-2" className="block">
             <Card>
-              <h2 className="font-semibold text-xl mb-3">Secundaria</h2>
+              <h2 className="font-semibold text-xl mb-3">Nivel II</h2>
               <p className="text-gray-600">
-                Material para estudiantes de secundaria y bachillerato.
+                Material para estudiantes con conocimientos intermedios.
               </p>
             </Card>
           </Link>
 
-          <Link href="/universidad" className="block">
+          <Link href="/nivel-3" className="block">
             <Card>
-              <h2 className="font-semibold text-xl mb-3">Universidad</h2>
+              <h2 className="font-semibold text-xl mb-3">Nivel III</h2>
               <p className="text-gray-600">
-                Contenidos avanzados y proyectos universitarios.
+                Contenidos avanzados y proyectos especializados.
               </p>
             </Card>
           </Link>
@@ -64,7 +64,7 @@ export default function Home() {
                 Robot Seguidor de Línea
               </h3>
               <p className="text-gray-600">
-                Proyecto interdisciplinario de robótica para secundaria.
+                Proyecto interdisciplinario de robótica para Nivel II.
               </p>
             </Card>
           </Link>

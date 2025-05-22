@@ -7,8 +7,8 @@ export default function Primaria() {
   return (
     <div>
       <PageHeader
-        title="Primaria"
-        description="Recursos y proyectos educativos diseñados específicamente para estudiantes de primaria, enfocados en despertar la curiosidad y el interés por STEAM desde temprana edad."
+        title="Nivel I"
+        description="Recursos y proyectos educativos diseñados específicamente para principiantes, enfocados en despertar la curiosidad y el interés por STEAM desde el inicio."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
