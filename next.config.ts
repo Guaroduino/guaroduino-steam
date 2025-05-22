@@ -1,10 +1,13 @@
 import type { NextConfig } from "next";
 
+const isGithubActions = process.env.GITHUB_ACTIONS || false;
+const repo = 'guaroduino-steam';
+
 const nextConfig: NextConfig = {
   /* config options here */
   output: 'export',
-  basePath: '/guaroduino-steam',
-  assetPrefix: '/guaroduino-steam/',
+  basePath: isGithubActions ? `/${repo}` : '',
+  assetPrefix: isGithubActions ? `/${repo}/` : '',
   images: {
     unoptimized: true,
   },
