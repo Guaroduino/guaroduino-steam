@@ -3,12 +3,12 @@ import Link from 'next/link';
 import Card from '../components/Card';
 import PageHeader from '../components/PageHeader';
 
-export default function Secundaria() {
+export default function NivelDos() {
   return (
     <div>
       <PageHeader
-        title="Secundaria"
-        description="Proyectos y recursos educativos para estudiantes de secundaria, diseñados para profundizar en conceptos STEAM y desarrollar habilidades prácticas."
+        title="Nivel II"
+        description="Proyectos y recursos educativos de nivel intermedio, diseñados para profundizar en conceptos STEAM y desarrollar habilidades prácticas."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

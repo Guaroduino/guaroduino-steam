@@ -3,12 +3,12 @@ import Link from 'next/link';
 import Card from '../components/Card';
 import PageHeader from '../components/PageHeader';
 
-export default function Universidad() {
+export default function NivelTres() {
   return (
     <div>
       <PageHeader
-        title="Universidad"
-        description="Recursos avanzados y proyectos para estudiantes universitarios, enfocados en el desarrollo de habilidades profesionales en áreas STEAM."
+        title="Nivel III"
+        description="Recursos avanzados y proyectos especializados, enfocados en el desarrollo de habilidades profesionales en áreas STEAM."
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
