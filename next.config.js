@@ -4,7 +4,7 @@ const nextConfig = {
   basePath: '/guaroduino-steam',
   images: {
     unoptimized: true,
-  },
+  }
 };
 
 module.exports = nextConfig;

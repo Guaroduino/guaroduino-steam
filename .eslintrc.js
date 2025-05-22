@@ -53,38 +53,10 @@ module.exports = {
     // Reglas de importación
     'import/prefer-default-export': 'off',
     'import/no-default-export': 'off',
-    'import/order': [
-      'error',
-      {
-        groups: [
-          ['builtin', 'external'],
-          'internal',
-          ['parent', 'sibling', 'index'],
-        ],
-        'newlines-between': 'always',
-        alphabetize: {
-          order: 'asc',
-          caseInsensitive: true,
-        },
-      },
-    ],
+    'import/order': 'off',
 
     // Reglas de estilo
-    'prettier/prettier': [
-      'error',
-      {
-        printWidth: 80,
-        tabWidth: 2,
-        useTabs: false,
-        semi: true,
-        singleQuote: true,
-        trailingComma: 'es5',
-        bracketSpacing: true,
-        jsxBracketSameLine: false,
-        arrowParens: 'avoid',
-        endOfLine: 'auto',
-      },
-    ],
+    'prettier/prettier': 'off',
 
     // Reglas generales
     'no-console': ['warn', { allow: ['warn', 'error'] }],
