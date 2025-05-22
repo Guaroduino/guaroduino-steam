@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Card from '../components/Card';
 import PageHeader from '../components/PageHeader';
 
-export default function Primaria() {
+export default function NivelUno() {
   return (
     <div>
       <PageHeader
@@ -26,7 +26,7 @@ export default function Primaria() {
                 plastilina conductiva.
               </p>
               <Link
-                href="/proyectos/primaria/circuitos-plastilina"
+                href="/proyectos/circuitos-plastilina"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver proyecto →
@@ -40,7 +40,7 @@ export default function Primaria() {
                 cohete impulsado por agua.
               </p>
               <Link
-                href="/proyectos/primaria/cohete-agua"
+                href="/proyectos/cohete-agua"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver proyecto →
@@ -56,7 +56,7 @@ export default function Primaria() {
                 seguros y comunes.
               </p>
               <Link
-                href="/proyectos/primaria/jardin-cristales"
+                href="/proyectos/jardin-cristales"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver proyecto →
@@ -79,7 +79,7 @@ export default function Primaria() {
                 en el aula.
               </p>
               <Link
-                href="/recursos/primaria/guias-actividades"
+                href="/recursos/guias-actividades"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver recursos →
@@ -95,7 +95,7 @@ export default function Primaria() {
                 aprendizaje STEAM.
               </p>
               <Link
-                href="/recursos/primaria/material-descargable"
+                href="/recursos/material-descargable"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver recursos →
