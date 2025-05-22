@@ -9,8 +9,7 @@
     "lint": "eslint . --ext .ts,.tsx",
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
-    "check-format": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\"",
-    "export": "next export"
+    "check-format": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\""
   },
   "dependencies": {
     "next": "14.1.0",
