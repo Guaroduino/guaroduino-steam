@@ -218,7 +218,7 @@ export default function CoheteAgua() {
                   <h3 className="font-semibold mb-4">Material Descargable</h3>
                   <ul className="space-y-3">
                     <li>
-                      <Link href="/recursos/cohete-agua/plantillas.pdf" className="text-blue-600 hover:text-blue-800 flex items-center">
+                      <Link href="/recursos/cohete-agua/plantillas.html" className="text-blue-600 hover:text-blue-800 flex items-center">
                         <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                           <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3.586L7.707 9.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 10.586V7z" />
                         </svg>
@@ -226,7 +226,7 @@ export default function CoheteAgua() {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/recursos/cohete-agua/registro.pdf" className="text-blue-600 hover:text-blue-800 flex items-center">
+                      <Link href="/recursos/cohete-agua/registro.html" className="text-blue-600 hover:text-blue-800 flex items-center">
                         <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                           <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3.586L7.707 9.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 10.586V7z" />
                         </svg>
@@ -234,7 +234,7 @@ export default function CoheteAgua() {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/recursos/cohete-agua/seguridad.pdf" className="text-blue-600 hover:text-blue-800 flex items-center">
+                      <Link href="/recursos/cohete-agua/seguridad.html" className="text-blue-600 hover:text-blue-800 flex items-center">
                         <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                           <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3.586L7.707 9.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 10.586V7z" />
                         </svg>
