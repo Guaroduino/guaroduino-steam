@@ -13,22 +13,22 @@ export default function Navbar() {
 
           <div className="hidden sm:flex sm:items-center sm:space-x-8">
             <Link
-              href="/primaria"
+              href="/nivel-1"
               className="text-gray-600 hover:text-gray-900"
             >
-              Primaria
+              Nivel I
             </Link>
             <Link
-              href="/secundaria"
+              href="/nivel-2"
               className="text-gray-600 hover:text-gray-900"
             >
-              Secundaria
+              Nivel II
             </Link>
             <Link
-              href="/universidad"
+              href="/nivel-3"
               className="text-gray-600 hover:text-gray-900"
             >
-              Universidad
+              Nivel III
             </Link>
             <Link
               href="/proyectos"
