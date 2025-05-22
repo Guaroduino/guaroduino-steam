@@ -1,3 +1,4 @@
+// Forzar nuevo build para deploy minimalista
 import Button from "../components/Button";
 import Card from "../components/Card";
 
