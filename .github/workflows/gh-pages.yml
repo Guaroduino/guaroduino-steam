@@ -27,11 +27,15 @@ jobs:
           npm install sharp
 
       - name: Build static site
-        run: npm run build
+        run: |
+          npm run build
+          touch dist/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: out
+          folder: dist
           branch: gh-pages
-          clean: true 
+          clean: true
+          clean-exclude: |
+            .nojekyll 
