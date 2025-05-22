@@ -58,7 +58,7 @@ export default function Home() {
           Proyectos Destacados
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <Link href="/proyectos/robot-seguidor">
+          <Link href="/proyectos/secundaria/robot-seguidor">
             <Card>
               <h3 className="font-semibold text-xl mb-2">
                 Robot Seguidor de Línea
@@ -69,7 +69,7 @@ export default function Home() {
             </Card>
           </Link>
 
-          <Link href="/proyectos/simulacion-circuitos">
+          <Link href="/proyectos/secundaria/simulacion-circuitos">
             <Card>
               <h3 className="font-semibold text-xl mb-2">
                 Simulación de Circuitos

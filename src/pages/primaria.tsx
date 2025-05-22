@@ -26,7 +26,7 @@ export default function Primaria() {
                 plastilina conductiva.
               </p>
               <Link
-                href="/proyectos/circuitos-plastilina"
+                href="/proyectos/primaria/circuitos-plastilina"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver proyecto →
@@ -40,7 +40,7 @@ export default function Primaria() {
                 cohete impulsado por agua.
               </p>
               <Link
-                href="/proyectos/cohete-agua"
+                href="/proyectos/primaria/cohete-agua"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver proyecto →
@@ -56,7 +56,7 @@ export default function Primaria() {
                 seguros y comunes.
               </p>
               <Link
-                href="/proyectos/jardin-cristales"
+                href="/proyectos/primaria/jardin-cristales"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver proyecto →
@@ -79,7 +79,7 @@ export default function Primaria() {
                 en el aula.
               </p>
               <Link
-                href="/recursos/guias-actividades"
+                href="/recursos/primaria/guias-actividades"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver recursos →
@@ -95,7 +95,7 @@ export default function Primaria() {
                 aprendizaje STEAM.
               </p>
               <Link
-                href="/recursos/material-descargable"
+                href="/recursos/primaria/material-descargable"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver recursos →

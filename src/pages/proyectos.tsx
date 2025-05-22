@@ -26,7 +26,7 @@ export default function Proyectos() {
                 plastilina conductiva.
               </p>
               <Link
-                href="/proyectos/circuitos-plastilina"
+                href="/proyectos/primaria/circuitos-plastilina"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver proyecto →
@@ -40,7 +40,7 @@ export default function Proyectos() {
                 cohete impulsado por agua.
               </p>
               <Link
-                href="/proyectos/cohete-agua"
+                href="/proyectos/primaria/cohete-agua"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver proyecto →
@@ -56,7 +56,7 @@ export default function Proyectos() {
                 seguros y comunes.
               </p>
               <Link
-                href="/proyectos/jardin-cristales"
+                href="/proyectos/primaria/jardin-cristales"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver proyecto →
@@ -79,7 +79,7 @@ export default function Proyectos() {
                 programación básica.
               </p>
               <Link
-                href="/proyectos/robot-seguidor"
+                href="/proyectos/secundaria/robot-seguidor"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver proyecto →
@@ -95,7 +95,7 @@ export default function Proyectos() {
                 Tinkercad.
               </p>
               <Link
-                href="/proyectos/simulacion-circuitos"
+                href="/proyectos/secundaria/simulacion-circuitos"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver proyecto →
@@ -111,7 +111,7 @@ export default function Proyectos() {
                 Arduino.
               </p>
               <Link
-                href="/proyectos/intro-arduino"
+                href="/proyectos/secundaria/intro-arduino"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver proyecto →
@@ -132,7 +132,7 @@ export default function Proyectos() {
                 nube.
               </p>
               <Link
-                href="/proyectos/iot-esp32"
+                href="/proyectos/universidad/iot-esp32"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver proyecto →
@@ -147,7 +147,7 @@ export default function Proyectos() {
                 Implementación de algoritmos de visión usando OpenCV y Python.
               </p>
               <Link
-                href="/proyectos/vision-computadora"
+                href="/proyectos/universidad/vision-computadora"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver proyecto →
@@ -160,7 +160,7 @@ export default function Proyectos() {
                 Introducción práctica al aprendizaje automático con TensorFlow.
               </p>
               <Link
-                href="/proyectos/machine-learning"
+                href="/proyectos/universidad/machine-learning"
                 className="text-blue-600 hover:text-blue-800"
               >
                 Ver proyecto →
