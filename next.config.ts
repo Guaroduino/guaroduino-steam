@@ -1,16 +1,10 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   output: 'export',
   basePath: '/guaroduino-steam',
-  assetPrefix: '/guaroduino-steam/',
   images: {
     unoptimized: true,
-    loader: 'custom',
-    path: '/guaroduino-steam',
   },
-  trailingSlash: true,
-  distDir: 'dist',
-};
+}
 
 export default nextConfig;

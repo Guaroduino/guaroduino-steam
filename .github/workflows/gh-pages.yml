@@ -22,20 +22,16 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: |
-          npm ci
-          npm install sharp
+        run: npm ci
 
       - name: Build static site
         run: |
           npm run build
-          touch dist/.nojekyll
+          touch out/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: dist
+          folder: out
           branch: gh-pages
-          clean: true
-          clean-exclude: |
-            .nojekyll 
+          clean: true 
